@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Golos Text, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.left {
+    flex: 1;
+}
+.face-img{
+    margin-left: 100px;
+}
+h1 {
+    font-family: Golos Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 140px;
+    line-height: 180px;
+    letter-spacing: -1.5px;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.face-img {
+    width: 462px;
+    height: 501px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: #ffffff;
+}
+
+.auth-card {
+    max-width: 400px;
+    width: 100%;
+    background: #ffffff;
+    padding: 32px;
+}
+
+.field {
+    margin-bottom: 24px;
+}
+
+.field label {
+    display: block;
+    font-family: Golos text;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+
+}
+
+.field input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 0px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #F2F3F5;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.email-format {
+    font-size: 13px;
+    color: #9ca3af;
+    margin-top: 6px;
+}
+
+.submit-btn {
+    display: block;
+    text-decoration: none;  
+    width: 100%;
+    padding: 14px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: #242424;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src_login/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">     
+        <h1>Войти</h1>
+        <div class="left">
+            <img src="src_login/human.png" alt="Smile face" class="face-img">
+        </div>
+        <div class="right">
+            <div class="auth-card">
+
+                <form>
+                    <div class="field">
+                        <label for="email">Электропочта</label>
+                        <input type="email" id="email" name="email" 
+                               placeholder="" required>
+                        <div class="email-format">Введите электропочту в формате *****@***.**</div>
+                    </div>
+
+                    <div class="field">
+                        <label for="password">Пароль</label>
+                        <input type="password" id="password" name="password" 
+                               placeholder="" required>
+                    </div>
+                    <a href='main.html' class="submit-btn">Продолжить</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
